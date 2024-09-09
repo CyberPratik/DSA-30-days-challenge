@@ -24,16 +24,16 @@ int main(){
 	{
 		arr[i]=2;
 	}	
-    for(int i=0;i<count1+count0;i++)
-    {
-        arr[i]=1;
-    }
-    for(int i=0;i<count0;i++)
-    {
-        arr[i]=0;
-    }
-    for(int i=0;i<n;i++)
-    {
-        cout<<arr[i]<<"\t";
-    }
+   	for(int i=0;i<count1+count0;i++)
+    	{
+        	arr[i]=1;
+    	}
+    	for(int i=0;i<count0;i++)
+    	{
+        	arr[i]=0;
+    	}
+    	for(int i=0;i<n;i++)
+    	{
+        	cout<<arr[i]<<"\t";
+    	}
 }

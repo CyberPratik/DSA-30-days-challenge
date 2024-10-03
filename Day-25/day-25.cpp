@@ -41,7 +41,6 @@ TreeNode* buildTree(const vector<string>& nodes) {
         }
         i++;
     }
-
     return root;
 }
 vector<string> splitInput(const string& input) 
